@@ -17,10 +17,10 @@ import (
 )
 
 func main() {
-	yazik := "en"
+	myLng := "en"
 	if len(os.Args) == 2 {
-		yazik = os.Args[1]
+		myLng = os.Args[1]
 	}
 
-	fmt.Println(lng(yazik, "Hello World"))
+	fmt.Println(lng(myLng, "Hello World"))
 }
